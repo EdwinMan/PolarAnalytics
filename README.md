@@ -1,4 +1,4 @@
-1- Clone the folder to your diserd path.
+1- Clone the folder to your desired path.
 
 2- navigate to application Folder.
 
