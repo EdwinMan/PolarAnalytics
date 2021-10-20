@@ -1,0 +1,252 @@
+body {
+  background:url(https://media.istockphoto.com/vectors/seamless-pattern-wit-yummy-cartoon-cotton-candy-planets-vector-id1069551044?k=20&m=1069551044&s=612x612&w=0&h=Q9yod81ExZaOWMTt-7fOmC37Q90ZlvhXOfWBv9TuoCM=) repeat;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* ----------- */
+
+
+
+.box{
+  position: relative;
+  height: 700px;
+  width: 1000px;
+  background: none;
+  display: block;
+  margin: auto;
+  margin-top: 8%;
+}
+
+.planet{
+  position: absolute;
+  border-radius: 50%;
+  background: #DD4B37;
+  height: 60%;
+  width: 40%;
+  top: 15%;
+  left: 30%;
+}
+
+.planet-copy{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #DD4B37;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.white-circle{
+  position: absolute;
+  background: white;
+  opacity: 0.1;
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  right: 0%;
+  top: 0%;
+  z-index: 3;
+}
+
+.circle-1{
+  position: absolute;
+  width: 18%;
+  height: 18%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 38%;
+  left: 35%;
+  z-index: 2;
+}
+
+.circle-2{
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 20%;
+  left: 45%;
+  z-index: 2;
+}
+.circle-3{
+  position: absolute;
+  width: 13%;
+  height: 13%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 20%;
+  left: 65%;
+  z-index: 2;
+}
+
+.circle-4{
+  position: absolute;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 60%;
+  left: 65%;
+  z-index: 2;
+}
+
+.circle-5{
+  position: absolute;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 35%;
+  left: 6%;
+  z-index: 2;
+}
+
+.circle-6{
+  position: absolute;
+  width: 9%;
+  height: 9%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 75%;
+  left: 15%;
+  z-index: 2;
+}
+
+.circle-7{
+  position: absolute;
+  width: 11%;
+  height: 11%;
+  border-radius: 50%;
+  background: #CB3B2B;
+  top: 85%;
+  left: 40%;
+  z-index: 2;
+}
+
+.tube-1{
+  position: absolute;
+  height: 10%;
+  width: 25%;
+  top: 25%;
+  left: 15%;
+  background: #DD4B37;
+  border-radius: 50px;
+  z-index: 1;
+}
+
+.tube-2{
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  top: 38%;
+  left: 20%;
+  background: #E57C39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-3{
+  position: absolute;
+  height: 10%;
+  width: 50%;
+  top: 50%;
+  left: 10%;
+  background: #EEBF45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-4{
+  position: absolute;
+  height: 10%;
+  width: 40%;
+  top: 20%;
+  right: 10%;
+  background: #EEBF45;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-5{
+  position: absolute;
+  height: 10%;
+  width: 10%;
+  top: 40%;
+  right: 25%;
+  background: #E57C39;
+  border-radius: 50px;
+  z-index: -1;
+}
+.tube-6{
+  position: absolute;
+  height: 10%;
+  width: 35%;
+  top: 55%;
+  right: 15%;
+  background: #DD4B37;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.flag{
+  position: absolute;
+  top: -10%;
+  width: 25%;
+  height: 20%;
+  left: 47%;
+}
+
+.pole{
+  position: absolute;
+  height: 200%;
+  width: 25%;
+  background: #5C4126;
+  bottom: -200%;
+  left: 0%;
+}
+
+@media all and (max-width: 1000px) {
+  .box{
+   margin-top: 100px;
+   width: 600px;
+   height: 400px;
+ }
+}
+
+@media all and (max-width: 600px) {
+   .box{
+    margin-top: 100px;
+    width: 250px;
+    height: 175px;
+  }
+}
+
+.hover{
+  cursor: pointer;
+}
+
+
+.fadeOut{
+  opacity:0;
+  width:0;
+  height:0;
+  transition: width 0.5s 0.5s, height 0.5s 0.5s, opacity 0.5s;
+
+}
+.fadeIn{
+  opacity:1;
+  width:100px;
+  height:100px;
+  transition: width 0.5s, height 0.5s, opacity 0.5s 0.5s;
+
+}
