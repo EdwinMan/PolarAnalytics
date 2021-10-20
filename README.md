@@ -1,6 +1,6 @@
 1- Clone the folder to your diserd path.
 
-2- navigate to Application Folder.
+2- navigate to application Folder.
 
 3- open the terminal and type: npm install
 
